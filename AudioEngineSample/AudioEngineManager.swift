@@ -52,9 +52,6 @@ class AudioEngineManager: NSObject {
         let mixer = audioEngine.mainMixerNode
         
         /**
-         * you can connect one or more effectNode
-         * 
-    
          + example for connect three effectNode
          +
          +   // Reverb
@@ -76,8 +73,6 @@ class AudioEngineManager: NSObject {
          +   audioEngine.connect(reverb, to: delay, format: input!.inputFormatForBus(0))
          +   audioEngine.connect(delay, to: eq, format: input!.inputFormatForBus(0))
          +   audioEngine.connect(eq, to: mixer, format: input!.inputFormatForBus(0))
-         
-         *
          */
 
         // Distortion
