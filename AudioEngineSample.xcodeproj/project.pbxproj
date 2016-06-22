@@ -13,6 +13,7 @@
 		B59D49A01D0A4C17002444AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B59D499F1D0A4C17002444AB /* Assets.xcassets */; };
 		B59D49A31D0A4C17002444AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B59D49A11D0A4C17002444AB /* LaunchScreen.storyboard */; };
 		B59D49AE1D0A4C17002444AB /* AudioEngineSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59D49AD1D0A4C17002444AB /* AudioEngineSampleUITests.swift */; };
+		B59D49B91D0A4C6C002444AB /* AudioEngineManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59D49B81D0A4C6C002444AB /* AudioEngineManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		B59D49A91D0A4C17002444AB /* AudioEngineSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioEngineSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B59D49AD1D0A4C17002444AB /* AudioEngineSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEngineSampleUITests.swift; sourceTree = "<group>"; };
 		B59D49AF1D0A4C17002444AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B59D49B81D0A4C6C002444AB /* AudioEngineManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioEngineManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				B59D49981D0A4C17002444AB /* AppDelegate.swift */,
 				B59D499A1D0A4C17002444AB /* ViewController.swift */,
+				B59D49B81D0A4C6C002444AB /* AudioEngineManager.swift */,
 				B59D499C1D0A4C17002444AB /* Main.storyboard */,
 				B59D499F1D0A4C17002444AB /* Assets.xcassets */,
 				B59D49A11D0A4C17002444AB /* LaunchScreen.storyboard */,
@@ -199,6 +202,7 @@
 			files = (
 				B59D499B1D0A4C17002444AB /* ViewController.swift in Sources */,
 				B59D49991D0A4C17002444AB /* AppDelegate.swift in Sources */,
+				B59D49B91D0A4C6C002444AB /* AudioEngineManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +392,7 @@
 				B59D49B41D0A4C17002444AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B59D49B51D0A4C17002444AB /* Build configuration list for PBXNativeTarget "AudioEngineSampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +401,7 @@
 				B59D49B71D0A4C17002444AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
